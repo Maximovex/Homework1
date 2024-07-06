@@ -1,0 +1,13 @@
+my_dict={'Andrew':1981,'Denis':1992,'Anton':1984}
+print(my_dict)
+print(my_dict['Andrew'])
+print(my_dict.get('Kate'))
+my_dict.update({'John':1950,'Alina':1990})
+absent=my_dict.pop('Alina')
+print(absent)
+print(my_dict)
+my_set={2,5,6,7,'Alina',8,2,9,4,'alina',5,'Alina'}
+print(my_set)
+my_set.update({10,'Hello'})
+my_set.discard(5)
+print(my_set)
